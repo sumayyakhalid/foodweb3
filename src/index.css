@@ -1,0 +1,190 @@
+*{
+  font-family: "Times New Roman", Times, serif;
+  margin:0;
+  padding:0;
+  box-sizing: 0;
+   
+  
+}
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  
+}
+h3 {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:10px;
+  margin:20px;
+  background-color:white;
+}
+
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+  
+}
+.block {
+
+  
+    padding: 2px;
+    margin: 5px;
+    
+    border-radius: 0.5rem;
+  
+}
+.text-right {
+  text-align: left;
+}
+img.small {
+  max-height: 8rem;
+  padding: 20px;
+  margin:20px;
+  display:flex;
+  flex-wrap: wrap;
+}
+button {
+  
+  color:black;
+  cursor: pointer;
+  color:black;
+  padding: 3px 22px;
+  border-radius:40px ;
+  font-size: 17px;
+}
+button.add {
+  background-color: #40c0f0;
+  width: 1.5rem;
+}
+h6{
+  font-size: 40px;
+}
+button.remove {
+  background-color: #f04040;
+  width: 1.5rem;
+}
+button.badge {
+  background-color: #f04040;
+  border: none;
+  color: white;
+  width: 1.5rem;
+}
+
+ .headerlogo{
+     width: 100px;
+ }
+ 
+ .nav
+ {
+     background: radial-gradient(rgb(233, 229, 24),black);
+     display: flex;
+     
+     z-index: 9999;
+     width: 100%;
+
+ 
+ }
+ .pa{
+  position: relative;
+  top: 50px;
+
+ }
+ .sk{
+  background-color: #f04040;
+ }
+ ul{
+     
+     margin-top: 35px;
+     margin-top: 35px;
+     
+      width: 100%;
+     
+     float:right;
+     display: flex;
+     flex-direction: row;
+     justify-content:right;
+    
+     
+ }
+ /* .nav ul li {
+     float: right;  
+ }   */
+ 
+ .sk
+{
+  width: 100% !important;
+
+}
+ 
+ .nav ul li {
+     list-style: none;
+     font-family: Apple Chancery, cursive;
+    
+    
+ }
+ 
+ li a
+ {
+     text-decoration: none;
+     color: azure;
+     padding: 3px 22px;
+     border-radius:40px ;
+     font-size: 20px;
+     text-align: right;
+    
+     
+ }
+ 
+ .nav ul li a:hover{
+    color:rgb(0, 0, 0) ;
+    background-color: rgb(255, 255, 255); 
+    
+ }
+
+ .footer{
+  margin-top: 1rem;
+  padding: 1rem;
+ 
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  background: radial-gradient(rgb(233, 229, 24),black);
+}
+.container{
+  text-align: center;
+  
+}
+.headerlogo{
+  font-size:30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.dog{
+  font-family: Brush Script Std, cursive;
+    font-size: 30px;
+    color:darkgoldenrod
+}
+.item
+{
+  font-family: Brush Script Std, cursive;
+    font-size: 20px;
+    color:red;
+
+}
